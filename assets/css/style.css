@@ -1,0 +1,145 @@
+.alignCenter{
+    margin: auto;
+    max-width: 960px;
+    min-height: 100%;
+    padding-bottom: 20px;
+    position: relative;
+    float: none;
+}
+
+.nameDiv{
+    float: left;
+    width: 30%;
+    background-color:#4aaaa5;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    float: right;
+    color: #cccccc;
+    padding-top: 30px;
+}
+
+nav li{
+    display: inline;
+    padding-right: 10px;
+    border-right-style: solid;
+    border-top-left-radius: #cccccc;
+}
+
+nav li:last-child{
+    border-right-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+.content{
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    padding-bottom: 20px;
+}
+
+.sectionLeft{
+    float: left;
+    margin-right: 30px;
+    width: 650px;
+}
+
+.sectionCenter{
+    float: Center;
+    width: 960px;
+}
+
+.sectionRight{
+    float: right;
+}
+
+.textStyle{
+    border: 0.5px solid #cccccc;
+    color: #777777;
+    padding-left: 5px;
+    padding: 5px;
+    width: 98%;
+}
+
+.contentHeadColor{
+    color:#4aaaa5;
+}
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+#girlImage{
+    float: left;
+    padding-right: 5px;
+}
+
+.buttonStyle{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.footer{
+    width: 100%;
+    background-color:#666666;
+    border-top-style: solid;
+    border-top-width: 4pt;
+    border-top-color: teal;
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    clear: both;
+}
+
+.portflioImage{
+    display: inline;
+    height: 150px;
+    width: 200px;
+}
+
+.imageContainer{
+    position: relative;
+}
+
+.imageLabel{
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    color: white;
+    width: 100%;
+    background-color:#4aaaa5;
+    height: 15%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+td{
+    padding: 5px;
+}
